@@ -17,3 +17,4 @@ export $(grep -v '^#' .env | xargs -d '\n')
 
 info Red test
 docker run -it $TAG /bin/red --version
+docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp $TAG /bin/red hello.red
