@@ -1,1 +1,1 @@
-Fred Brooker <f@mxd.cz> project owner
+Fred Brooker <f@mxd.cz> docker project maintainer

@@ -9,5 +9,4 @@ run **./build.sh** to build the image
 
 ### Usage
 
-`docker run -it gscloudcz/php74 php --version`  
-`docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/php74 php -f ./test.php`
+`docker run -it gscloudcz/red:064 red --version`  
