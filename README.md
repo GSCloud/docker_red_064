@@ -14,3 +14,4 @@ run **./test.sh** to test the image
 ### Usage
 
 `docker run -it gscloudcz/red:064 /bin/red --version`  
+`docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red:064 /bin/red hello.red`  
