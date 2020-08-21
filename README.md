@@ -13,5 +13,5 @@ run **./test.sh** to test the image
 
 ### Examples
 
-`docker run -it gscloudcz/red:064 /bin/red --version`  
-`docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red:064 /bin/red hello.red`  
+`docker run -it --rm gscloudcz/red:064 /bin/red --version`  
+`docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red:064 /bin/red hello.red`  

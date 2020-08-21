@@ -20,4 +20,5 @@ if [ -z "$TAG" ]; then fail "Missing TAG definition!"; fi
 docker build --pull -t $TAG .
 
 echo -ne "\n\n"
+
 . ./test.sh
