@@ -16,5 +16,9 @@ if [ ! -r ".env" ]; then fail "Missing .env file!"; fi
 export $(grep -v '^#' .env | xargs -d '\n')
 
 info Red test
-docker run --rm -it $TAG /bin/red --version
-docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp $TAG /bin/red hello.red
+
+#XSOCK=/tmp/.X11-unix/X0
+#XAUTH=/tmp/.docker.xauth
+
+docker run --rm -it -e DISPLAY=$DISPLAY $TAG /bin/red --version
+docker run --rm -it -e DISPLAY=$DISPLAY -v "$PWD":/usr/src/myapp -w /usr/src/myapp $TAG /bin/red hello.red
