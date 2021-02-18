@@ -1,2 +1,2 @@
-Red [Title: "Hello world"] 
-print "Hello Red world!"
+Red [Title: "Hello"] 
+print "Hello, Red world!"

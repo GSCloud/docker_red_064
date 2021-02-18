@@ -12,6 +12,6 @@ run: **make** -> CLI help
 ## Examples
 
 ```bash
-docker run -it --rm gscloudcz/red /bin/red --version  
-docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red /bin/red hello.red
+docker run gscloudcz/red /bin/red -V
+docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red /bin/red hello.red
 ```
