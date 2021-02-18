@@ -1,4 +1,5 @@
 #!/bin/bash
+#@author Filip Oščádal <oscadal@gscloud.cz>
 
 command -v docker >/dev/null 2>&1 || { echo "Docker is NOT installed!"; exit;}
 

@@ -1,3 +1,2 @@
-    Red [Title: "Hello world example"] 
-
-    print "Hello world, my friend!"
+Red [Title: "Hello world"] 
+print "Hello Red world!"

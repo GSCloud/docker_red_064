@@ -1,17 +1,17 @@
-# RED 0.6.4
+# Red Docker
 
 DockerHub: [https://hub.docker.com/repository/docker/gscloudcz/red]  
 GitHub: [https://github.com/GSCloud/docker_red_064]
 
-## Build
+Red version: **0.6.4 stable**
 
-run **./build.sh** to build the image
+## Usage
 
-## Test
+run: **make** -> CLI help
 
-run **./test.sh** to test the image
+## Examples
 
-### Examples
-
-`docker run -it --rm gscloudcz/red:064 /bin/red --version`  
-`docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red:064 /bin/red hello.red`  
+```bash
+docker run -it --rm gscloudcz/red /bin/red --version  
+docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gscloudcz/red /bin/red hello.red
+```
