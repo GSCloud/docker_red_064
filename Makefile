@@ -24,6 +24,6 @@ test:
 
 push:
 	@echo "🔨 \e[1;32m Pushing image to DockerHub\e[0m"
-	@docker push gscloudcz/red:latest
+	@docker push gscloudcz/red:0.6.4
 
 everything: docs build test push
